@@ -415,7 +415,6 @@ button:hover{
         color: white;
         text-decoration: none;
         text-transform: capitalize;
-        background-color: #9767A9;
     }
     a:hover{
         background-color: #AC95BB;
@@ -527,7 +526,6 @@ button:hover{
         left: 2vw;
     }
     .galeria{
-        position: absolute;
         top: 784vh;
         width: 73vw;
         height: 115vh;
@@ -542,7 +540,6 @@ button:hover{
         left: 35vw;
     }
     .jordan{
-        position: absolute;
         top: auto;
         left: 52vw;
     }
@@ -584,12 +581,10 @@ button:hover{
         height: auto;
     }
     .fashion{
-        position: absolute;
         top: 64vh;
-        left: auto;
+        left: 0.5vw;
     }
     .man{
-        position: absolute;
         top: 64vh;
         left: 22vw;
     }
@@ -598,9 +593,8 @@ button:hover{
         height: auto;
     }
     .girl{
-        position: absolute;
         top: 94vh;
-        left: auto;
+        left: 0.5vw;
     }
     .girl img{
         width: 20vw;
@@ -618,7 +612,6 @@ button:hover{
     }
     .mobile-footer img{
         width: 35vw;
-        border: solid;
     }
     .mobile-footer img:hover{
         cursor: pointer;
@@ -638,6 +631,4 @@ button:hover{
     button{
         display: none;
     }
-    
-    
 }
