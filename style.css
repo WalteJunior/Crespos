@@ -1,0 +1,643 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    height: 15vh;
+}
+header img:hover{
+    cursor: pointer;
+}
+.mobile-menu{
+    width: 4.5vw;
+    height: 7.7vh;
+    background-color: #fff;
+    display: none;
+}
+.mobile-menu:hover{
+    cursor: pointer;
+}
+.logo{
+    position: absolute;
+    top: 3vh;
+    left: 10vw;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    width: 64vw;
+    justify-content: end;
+    padding-top: 5vh;
+}
+li{
+    padding-left: 2vw;
+    color: #9767A9;
+}
+li:hover{
+    cursor: pointer;
+    color:#47008a;
+    opacity: 1;
+}
+input{
+    height: 25px;
+    padding-left: 23px;
+    border:solid #9767A9;
+    border-radius:10px;
+    background-image: url("/assents/Layer_3.svg");
+    background-repeat: no-repeat;
+    background-position-x: 2px;
+}
+.procurar{
+    position: absolute;
+    width: 15vw;
+    top: 5vh;
+    left: 70vw;
+}
+.social{
+    position: absolute;
+    top: 5vh;
+    left: 87vw;
+    width: 11vw;
+}
+.insta{
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+}
+main{
+    display: flex;
+    height: 100vh;
+    background-image: url("/assents/cabeludo.png");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
+.tipshair{
+    position: absolute;
+    top: 50vh;
+    left: 15vw;
+    width: 66vw;
+    height: 25vh;
+}
+.tips{
+    width: 20vw;
+    top: 38vh;
+    left: 14vw;
+    font-size: 70px;
+}
+h2{
+   color: white;
+   font-size: 40px;
+}
+.cabelo{
+    position: relative;
+    bottom: 17vh;
+    left: 45vw;
+    width: 25vw;
+    font-size: 25px;
+}
+p{
+    color: white;
+   font-size: 90%;
+   font-family: 'Montserrat', sans-serif;
+   text-align: left;
+}
+.info{
+    position: relative;
+    width: 100%;
+    height: 65vh;
+    top: 83vh;
+    background-color: #9767A9;
+    border: #707070;
+}
+.steps7{
+    position: absolute;
+    width: 40vw;
+    top: 8vh;
+    left: 5vw;
+}
+.cresponat{
+    font-size: 40px;
+}
+.journey{
+    position: absolute;
+    left: 45vw;
+    width: 46.7vw;
+    top: 10px;
+    font-size: 25px;
+}
+.ladoesquerdo{
+    position: absolute;
+    height: 485vh;
+    width: 41.5vw;
+    top: 155vh;
+    left: 3vw;
+}
+.ladoesquerdo img{
+    width: 41vw;
+    height: 80vh;
+}
+.ladodireito{
+    position: absolute;
+    top: 205vh;
+    left: 53vw;
+    width: 41vw;
+    height: 420vh;
+}
+.ladodireito img{
+    width: 41vw;
+    height: 80vh;
+}
+.fundo{
+    position: relative;
+    left: 3vw;
+    width: 33vw;
+    height: 45vh;
+    bottom: 10vh;
+    background-color:#9767A9;
+}
+.divtit{
+    position: relative;
+    width: 30.4vw;
+    left: 2vw;
+}
+.divcont{
+    position: absolute;
+    top: 17vh;
+    width: 30vw;
+    left: 2vw;
+}
+.lovely{
+    position: absolute;
+    top: 130vh;
+    width: 41vw;
+}
+.boy{
+    width: 41vw;
+}
+.queen{
+    position: absolute;
+    top: 132vh;
+    width: 41vw;
+    height: 80vh;
+}
+.duqueza{
+    width: 41vw;
+    height: 80vh;
+}
+.family{
+    position: absolute;
+    top: 263vh;
+    width: 41vw;
+}
+.love{
+    width: 41vw;
+}
+.hair{
+    position: absolute;
+    top: 253vh;
+    width: 41vw;
+    height: 68.5vh;
+}
+.wash{
+    width: 41vw;
+}
+.senhora{
+    position: absolute;
+    top: 384vh;
+    width: 41vw;
+    height: 68.5vh;
+}
+.madam{
+    width: 41vw;
+}
+.arte{
+    position: absolute;
+    top: 360vh;
+    width: 41vw;
+    height: 12vh;
+}
+.galeria{
+    position: absolute;
+    width: 87vw;
+    height: 87vh;
+    left: 3vw;
+    top: 656.5vh;
+}
+.actor{
+    width: 13vw;
+    height: 100%;
+}
+.king{
+    position: absolute;
+}
+.rei{
+    width: 20vw;
+}
+.beyonce{
+    position: absolute;
+    width: 15vw;
+    left: 20.5vw;
+}
+.jordan{
+    position: absolute;
+    width: 15vw;
+    top: 32vh;
+    left: 20.5vw;
+}
+.gloria{
+    position: absolute;
+    top: 62vh;
+}
+.famous{
+    width: 20vw;
+}
+.woman{
+    position: absolute;
+    top: 62vh;
+    left: 20.5vw;
+}
+.woman img{
+    width: 13vw;
+}
+.snoopy{
+    position: absolute;
+    top: 62vh;
+    left: 34vw;
+}
+.snoopy img{
+    width: 13vw;
+}
+.model{
+    position: absolute;
+    left: 34vw;
+}
+.model img{
+    width: 13vw;
+}
+.fashion{
+    position: absolute;
+    right: 19.5vw;
+}
+.fashion img{
+    width: 20vw;
+}
+.girl{
+    position: absolute;
+    right: 1vw;
+}
+.girl img{
+    width: 18vw;
+}
+.man{
+    position: absolute;
+    top: 34vh;
+    right: 1vw;
+}
+.man img{
+    width: 240px;
+    height: 340px;
+}
+footer{
+    position: absolute;
+    width: 100%;
+    height: 14%;
+    top: 750vh;
+    background-color: #bb00ff;
+
+}
+.direitos{
+    display: none;
+    color: black;
+}
+.mobile-footer{
+    display: none;
+}
+.ref{
+    position: relative;
+    width: 50vw;
+    top: 3vh;
+    left: 2vw;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #AC95BB;
+}
+.esquerda{
+    position: relative;
+    width: 8vw;
+    height: 5.5vh;
+    left: 70vw;
+    bottom: 3vh;
+    background-color: #bb00ff;
+    background-image: url("/assents/Grupo\ 7.svg");
+    background-repeat: no-repeat;
+    padding-left: 3.5vw;
+    border: none;
+    color: white;
+}
+.top{
+    position: relative;
+    width: 7vw;
+    height: 5.5vh;
+    left: 71vw;
+    bottom: 3vh;
+    background-color: #bb00ff;
+    background-image: url("/assents/Grupo\ 5.svg");
+    background-repeat: no-repeat;
+    padding-left: 3.5vw;
+    border: none;
+    color: white;
+}
+.direita{
+    position: relative;
+    width: 3vw;
+    height: 5.5vh;
+    left: 72vw;
+    bottom: 3vh;
+    background-color: #bb00ff;
+    background-image: url("/assents/Grupo\ 6.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 7vw;
+    border: none;
+    color: white;
+}
+@media(max-width: 990px){
+    header{
+        display: flex;
+        width: 100%;
+        height: 8.8vh;
+    }
+    .logo{
+        position: absolute;
+        top: 0.2vh;
+        left: 35vw;
+    }
+    .menu{
+        display: none;
+    }
+    .procurar{
+        display: none;
+    }
+    .social{
+        display: none;
+    }
+    input[type="checkbox"]{
+        display: none;
+    }
+    input[type="checkbox"]:checked ~ nav{
+        transform: translateX(170px);
+    }
+    .mobile-menu{
+        display: block;
+    }
+    .nav-menu{
+        position: absolute;
+        background-color: #9767A9;
+        width: 100px;
+        top: -0.6vh;
+        left: -170px;
+        transition: all 0.5s;
+    }
+    .nav-menu ul{
+        position: absolute;
+        top: 8vh;
+        width: 100%;
+    }
+    a{
+        display: flex;
+        height: 30px;
+        align-items: center;
+        align-self: center;
+        padding-left: 8px;
+        color: white;
+        text-decoration: none;
+        text-transform: capitalize;
+        background-color: #9767A9;
+    }
+    a:hover{
+        background-color: #AC95BB;
+    }
+    .mobile-menu img{
+        height: 8.8vh;
+    }
+    main{
+        display: flex;
+        width: 100%;
+        height: 43vh;
+        background-image: url("/assents/cabeludo@2x.png");
+        background-repeat: no-repeat;
+        background-size: 700px;
+    }
+    .tipshair{
+        position: absolute;
+        top: auto;
+        height: 45vh;
+    }
+    .tips{
+        width: 50vw;
+        font-size: 50px;
+    }
+    .cabelo{
+        position: relative;
+        top: 5vh;
+        left: auto;
+        width: 50vw;
+        font-size: 20px;
+    }
+    .blackpw{
+        display: none;
+    }
+    .info{
+        position: absolute;
+        width: 100%;
+        top: 49.8vh;
+    }
+    .steps7{
+        width: 90%;
+        top: auto;
+    }
+    .journey{
+        position: relative;
+        width: 85vw;
+        left: 3vw;
+        font-size: 19px;
+    }
+    .ladoesquerdo{
+        position: absolute;
+        width: 100%;
+        top: 120vh;
+        left: auto;
+    }
+    .ladoesquerdo img{
+        position: relative;
+        left: 8vw;
+        width: 80vw;
+        height: auto;
+    }
+    .lovely{
+        position: absolute;
+        top: 180vh;
+    }
+    .family{
+        position: absolute;
+        top: 360vh;
+    }
+    .senhora{
+        position: absolute;
+        top: 540vh;
+    }
+    .ladodireito{
+        position: absolute;
+        width: 100%;
+        top: 210vh;
+        left: auto;
+    }
+    .ladodireito img{
+        position: relative;
+        left: 8vw;
+        width: 80vw;
+        height: auto;
+    }
+    .queen{
+        position: absolute;
+        top: 180vh;
+    }
+    .hair{
+        position: absolute;
+        top: 360vh;
+    }
+    .arte{
+        position: absolute;
+        top: 550vh;
+    }
+    .fundo{
+        position: relative;
+        left: auto;
+        width: 95vw;
+    }
+    .divtit{
+        width: 90vw;
+        left: 2vw;
+    }
+    .divcont{
+        width: 85vw;
+        left: 2vw;
+    }
+    .galeria{
+        position: absolute;
+        top: 784vh;
+        width: 73vw;
+        height: 115vh;
+        left: 10vw;
+    }
+    .king img{
+        width: 33vw;
+        height: auto;
+    }
+    .beyonce{
+        position: absolute;
+        left: 35vw;
+    }
+    .jordan{
+        position: absolute;
+        top: auto;
+        left: 52vw;
+    }
+    .actor{
+        width: 15vw;
+        height: auto;
+    }
+    .woman{
+        position: absolute;
+        top: 12vh;
+        left: 35vw;
+    }
+    .woman img{
+        width: 35vw;
+        height: auto;
+    }
+    .gloria{
+        position: absolute;
+        top: 34vh;
+    }
+    .gloria img{
+        width: 70vw;
+    }
+    .snoopy{
+        position: absolute;
+        top: 94vh;
+        left: 22vw;
+    }
+    .snoopy img{
+        width: 18.8vw;
+    }
+    .model{
+        position: absolute;
+        top: 64vh;
+        left: 43vw;
+    }
+    .model img{
+        width:  27.5vw;
+        height: auto;
+    }
+    .fashion{
+        position: absolute;
+        top: 64vh;
+        left: auto;
+    }
+    .man{
+        position: absolute;
+        top: 64vh;
+        left: 22vw;
+    }
+    .man img{
+        width: 18.8vw;
+        height: auto;
+    }
+    .girl{
+        position: absolute;
+        top: 94vh;
+        left: auto;
+    }
+    .girl img{
+        width: 20vw;
+    }
+    footer{
+        position: absolute;
+        width: 100%;
+        height: 37vh;
+        top: 910vh;
+        background-color: white;
+    }
+    .mobile-footer{
+        display: flex;
+        justify-content: space-between;
+    }
+    .mobile-footer img{
+        width: 35vw;
+        border: solid;
+    }
+    .mobile-footer img:hover{
+        cursor: pointer;
+    }
+    .ref{
+        position: relative;
+        width: 90%;
+        top: 5vh;
+    }
+    .direitos{
+        display: block;
+    }
+    .conteudo{
+        width: 100vw;
+        color: black;
+    }
+    button{
+        display: none;
+    }
+    
+    
+}
