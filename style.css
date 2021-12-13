@@ -46,7 +46,7 @@ input{
     padding-left: 23px;
     border:solid #9767A9;
     border-radius:10px;
-    background-image: url("/assents/Layer_3.svg");
+    background-image: url("assents/Layer_3.svg");
     background-repeat: no-repeat;
     background-position-x: 2px;
 }
@@ -331,7 +331,7 @@ button:hover{
     left: 70vw;
     bottom: 3vh;
     background-color: #bb00ff;
-    background-image: url("/assents/Grupo\ 7.svg");
+    background-image: url("assents/Grupo\ 7.svg");
     background-repeat: no-repeat;
     padding-left: 3.5vw;
     border: none;
@@ -344,7 +344,7 @@ button:hover{
     left: 71vw;
     bottom: 3vh;
     background-color: #bb00ff;
-    background-image: url("/assents/Grupo\ 5.svg");
+    background-image: url("assents/Grupo\ 5.svg");
     background-repeat: no-repeat;
     padding-left: 3.5vw;
     border: none;
@@ -357,7 +357,7 @@ button:hover{
     left: 72vw;
     bottom: 3vh;
     background-color: #bb00ff;
-    background-image: url("/assents/Grupo\ 6.svg");
+    background-image: url("assents/Grupo\ 6.svg");
     background-repeat: no-repeat;
     background-position: right;
     padding-right: 7vw;
@@ -423,7 +423,7 @@ button:hover{
         display: flex;
         width: 100%;
         height: 43vh;
-        background-image: url("/assents/cabeludo@2x.png");
+        background-image: url("assents/cabeludo@2x.png");
         background-repeat: no-repeat;
         background-size: 700px;
     }
