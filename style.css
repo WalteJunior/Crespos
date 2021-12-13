@@ -69,7 +69,7 @@ input{
 main{
     display: flex;
     height: 100vh;
-    background-image: url("/assents/cabeludo.png");
+    background-image: url("assents/cabeludo.png");
     background-repeat: no-repeat;
     background-size: 100vw;
 }
