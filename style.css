@@ -392,6 +392,8 @@ button:hover{
     }
     .mobile-menu{
         display: block;
+        position: relative;
+        z-index: 2;
     }
     .nav-menu{
         position: relative;
@@ -621,7 +623,7 @@ button:hover{
         display: block;
     }
     .conteudo{
-        width: 100vw;
+        width: 100%;
         color: black;
     }
     button{
