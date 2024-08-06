@@ -1,0 +1,2 @@
+<h1>Descrição do projeto</h1>
+<p>Este projeto é um site que celebra e apoia pessoas com cabelos crespos, oferecendo dicas, truques, cronogramas capilares, e referências. O layout é responsivo e inclui uma navegação fácil tanto para desktop quanto para dispositivos móveis. O conteúdo principal inclui seções sobre aceitação e cuidado do cabelo crespo, com ênfase em autoconfiança e valorização da diversidade.</p>
